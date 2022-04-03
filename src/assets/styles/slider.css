@@ -1,0 +1,42 @@
+.slider {
+    padding: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__container {
+    display: flex;
+    gap: 50px;
+    width: 870px;
+    height: 200px;
+}
+
+.slider__container-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.slider__container-content-slogan {
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #222221;
+}
+
+.slider__container-content-information {
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #222221;
+}
